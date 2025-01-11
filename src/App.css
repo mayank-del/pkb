@@ -1,0 +1,115 @@
+.App{
+  
+  width: 100vw;
+  background: url(./assets//programming-background-collage.jpg);
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 130vh; /* Makes the height equal to the viewport height */
+  
+}
+body{
+  overflow-x:hidden;
+
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+   position: relative;
+   left:10px;
+   border-radius: 10px;
+  font-size: 1.5rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+}
+
+.desktop-menu a,
+.mobile-menu a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  display: block;
+}
+
+.desktop-menu {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.hamburgerx{
+  position: relative;
+  right: 10px;
+  bottom: 4px;
+  background: none;
+  border: none;
+  color: white;
+  
+  cursor: pointer;
+}
+.mobile-menu {
+  position: relative;
+  background :transparent;  
+  border-radius: 5px;
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.flexing-options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.glassmorphic-carousel-container {
+  position: relative;
+  width: 80%; 
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  overflow: hidden; 
+}
+
+
+.carousel-image {
+  width: 100%;
+  height: 400px; 
+  object-fit: cover;
+  border-radius: 15px; 
+}
+
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 10px 20px;
+  border-radius: 10px; 
+}
